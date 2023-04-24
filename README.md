@@ -5,7 +5,9 @@ It is using the following:
 
 - [ng-bootstrap] - (https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap/v/13.1.1) version 13.1.1.
 - [font-awesome] - (https://cdnjs.com/libraries/font-awesome) version 6.4.0.
+
 -this is the testing
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
