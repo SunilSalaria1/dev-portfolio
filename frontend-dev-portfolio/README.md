@@ -1,6 +1,10 @@
-# FrontendDevPortfolio
+# dev-portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+It is using the following:
+
+- [ng-bootstrap] - (https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap/v/13.1.1) version 13.1.1.
+- [font-awesome] - (https://cdnjs.com/libraries/font-awesome) version 6.4.0.
 
 ## Development server
 
@@ -25,3 +29,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## References
+
+- https://brittanychiang.com/
+- https://tamalsen.dev/
+- https://www.adeolaadeoti.xyz/
