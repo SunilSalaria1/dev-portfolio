@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 It is using the following:
 
-- [ng-bootstrap] - (https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap/v/13.1.1) version 13.1.1.
+- [ng-bootstrap] - (https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap/v/13.1.1) version 13.0.0.
 - [font-awesome] - (https://cdnjs.com/libraries/font-awesome) version 6.4.0.
 
 ## Development server

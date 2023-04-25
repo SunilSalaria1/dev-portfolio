@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+// /* ====== global scss ========= */
+// variables for bootstrap
+$primary: #262261;
+$secondary: #faaf40;
+$warning: #ee4036;
+
+// text styles
+.text-primary {
+    color: $primary !important;
+}
+
+.text-secondary {
+    color: $secondary !important;
+}
+
+.text-warning {
+    color: $warning !important;
+}
+
+// background styles
+.bg-primary {
+    background-color: $primary !important;
+}
+
+.bg-secondary {
+    background-color: $secondary !important;
+}
+
+.bg-warning {
+    background-color: $warning !important;
+}
+
+// button styles
+.btn-primary {
+    border-color: $primary;
+    background-color: $primary !important;
+}
+
+.btn-secondary {
+    border-color: $secondary;
+    background-color: $secondary !important;
+}
+
+.btn-warning {
+    border-color: $warning;
+    background-color: $warning !important;
+}
