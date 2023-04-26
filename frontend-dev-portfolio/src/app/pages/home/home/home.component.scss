@@ -1,0 +1,48 @@
+// scss for home component
+// hero-background
+.hero-bg {
+    background-image: url(/assets/images/hero-background-image.png);
+    background-size: cover;
+}
+
+.hero-text {
+    font-size: 80px;
+    line-height: 100px;
+}
+
+.bg-hero-img {
+    height: 350px;
+    width: 350px;
+    transform: rotate(45deg);
+}
+
+.icons-wrap {
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+}
+
+
+.play-btn {
+    width: 60px;
+    height: 60px;
+}
+
+#dynamicContent{
+    white-space: nowrap;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    // animation-name: changewidth;
+}
+
+@keyframes changewidth {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}

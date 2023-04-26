@@ -5,9 +5,10 @@
 
 // /* ====== global scss ========= */
 // variables for bootstrap
-$primary: #262261;
-$secondary: #faaf40;
+$primary: #faaf40;
+$secondary: #262261;
 $warning: #ee4036;
+$dark: #070428;
 
 // text styles
 .text-primary {
@@ -22,6 +23,10 @@ $warning: #ee4036;
     color: $warning !important;
 }
 
+.text-dark {
+    color: $dark !important;
+}
+
 // background styles
 .bg-primary {
     background-color: $primary !important;
@@ -33,6 +38,10 @@ $warning: #ee4036;
 
 .bg-warning {
     background-color: $warning !important;
+}
+
+.bg-dark {
+    background-color: $dark !important;
 }
 
 // button styles
@@ -49,4 +58,42 @@ $warning: #ee4036;
 .btn-warning {
     border-color: $warning;
     background-color: $warning !important;
+}
+
+.btn-dark {
+    border-color: $dark;
+    background-color: $dark !important;
+}
+
+// border styles
+.border-primary {
+    border-color: $primary !important;
+}
+
+.border-secondary {
+    border-color: $secondary !important;
+
+}
+
+.border-warning {
+    border-color: $warning !important;
+
+}
+
+.border-dark {
+    border-color: $dark !important;
+}
+
+// style
+body {
+    background-color: $dark;
+    font-family: 'Inter', sans-serif;
+}
+.btn {
+    transition: all 0.25s;
+    &:hover {
+        outline: none;
+        box-shadow: 4px 4px 0 0 $primary;
+        transform: translate(-5px, -5px);
+    }
 }
