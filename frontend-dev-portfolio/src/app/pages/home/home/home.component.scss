@@ -7,7 +7,7 @@
 
 .hero-text {
     font-size: 80px;
-    line-height: 100px;
+    line-height: 105px;
 }
 
 .bg-hero-img {
@@ -28,7 +28,7 @@
     height: 60px;
 }
 
-#dynamicContent{
+#dynamicContent {
     white-space: nowrap;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -46,6 +46,7 @@
         width: 100%;
     }
 }
+
 #about {
     .about-content {
         .h3::after {
