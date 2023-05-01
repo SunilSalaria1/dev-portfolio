@@ -5,15 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './shared/components/header/header.component';
-import { HomeComponent } from './pages/home/home/home.component';
-import { BlogsComponent } from './pages/blogs/blogs/blogs.component';
+import { HomeComponent } from './pages/home/home.component';
+import { BlogsComponent } from './pages/blogs/blogs.component';
+import { BreadcrumbComponent } from './shared/components/breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    BlogsComponent
+    BlogsComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,

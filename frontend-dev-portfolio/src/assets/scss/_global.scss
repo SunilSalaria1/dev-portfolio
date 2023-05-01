@@ -7,11 +7,21 @@ body {
 }
 
 .btn {
-    transition: all 0.25s;
+    transition: all 0.25s !important;
 
     &:hover {
-        outline: none;
-        box-shadow: 4px 4px 0 0 #faaf40;
-        transform: translate(-5px, -5px);
+        outline: none !important;
+        box-shadow: 4px 4px 0 0 #faaf40 !important;
+        transform: translate(-5px, -5px) !important;
     }
 }
+
+// .read-btn {
+//     transition: all 0.25s;
+
+//     &:hover {
+//         outline: none;
+//         box-shadow: 4px 4px 0 0 #faaf40;
+//         transform: translate(-5px, -5px);
+//     }
+// }
