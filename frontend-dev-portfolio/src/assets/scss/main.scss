@@ -1,0 +1,23 @@
+/* =============== valiables file =============== */
+@import "./variables";
+
+/* =============== theme colors =============== */
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "warning": $warning,
+    "dark": $dark,
+    "light":$light,
+    "success": $success,
+    "info": $info
+);
+
+
+
+
+// import partial files
+@import "./header";
+@import "./footer";
+@import "./mixin";
+@import "./global";
+

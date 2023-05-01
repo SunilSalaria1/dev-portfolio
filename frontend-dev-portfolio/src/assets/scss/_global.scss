@@ -1,0 +1,17 @@
+/* ============================================== */
+/*=========== globle scss ========== */
+/* ============================================== */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.btn {
+    transition: all 0.25s;
+
+    &:hover {
+        outline: none;
+        box-shadow: 4px 4px 0 0 #faaf40;
+        transform: translate(-5px, -5px);
+    }
+}

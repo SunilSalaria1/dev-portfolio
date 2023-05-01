@@ -6,15 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  dynamicContent: any = 'I build things for the web0.';
+  dynamicContent: any = 'I’m a software engineer.';
   dynamic: any = [
-    'I build things for the web0.',
-    'I build things for the web1.',
-    'I build things for the web2.',
-    'I build things for the web3.',
-    'I build things for the web4.',
+    'I’m a software engineer.',
+    'Specializing in building.',
+    'Exceptional digital experiences.',
+    'I’m focused on building accessible.',
+    'Human-centered products.',
   ];
-  setInterval: number = 1000;
+  setInterval: number = 1500;
   constructor() {}
 
   ngOnInit(): void {
@@ -29,7 +29,6 @@ export class HomeComponent implements OnInit {
     for (let i = 0; i < this.dynamic.length; i++) {
       setTimeout(() => {
         this.dynamicContent = this.dynamic[i];
-        console.log('value ' + i);
       }, this.setInterval * i);
     }
   }
