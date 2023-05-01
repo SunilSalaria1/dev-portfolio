@@ -8,6 +8,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
 import { BreadcrumbComponent } from './shared/components/breadcrumb/breadcrumb.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BreadcrumbComponent } from './shared/components/breadcrumb/breadcrumb.c
     HeaderComponent,
     HomeComponent,
     BlogsComponent,
-    BreadcrumbComponent
+    BreadcrumbComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

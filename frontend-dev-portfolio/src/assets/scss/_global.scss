@@ -16,6 +16,12 @@ body {
     }
 }
 
+.btn.btn-primary {
+    &:hover {
+        box-shadow: 4px 4px 0 0 #070428 !important;
+    }
+}
+
 // .read-btn {
 //     transition: all 0.25s;
 
